@@ -2,7 +2,7 @@
   "name": "solidapi",
   "version": "1.0.0",
   "description": "GymPass style app.",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
@@ -18,7 +18,7 @@
     "test:ui": "vitest --ui"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Rodrigues <gabriel.rocha.andrade.rodrigues@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@fastify/cookie": "9.3.1",
@@ -47,5 +47,6 @@
     "typescript": "5.4.2",
     "vite-tsconfig-paths": "4.3.2",
     "vitest": "1.4.0"
-  }
+  },
+  "repository": "git@github.com:GabrielRARodrigues/NodeJS-SolidAPI.git"
 }
